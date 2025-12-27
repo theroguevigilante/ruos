@@ -1,0 +1,13 @@
+[package]
+name = "ruos"
+version = "0.1.0"
+edition = "2024"
+authors = ["Naimish Pandey <naimish@naimish.xyz>"]
+
+[dependencies]
+bootloader = "0.9"
+
+[[bin]]
+name = "ruos"
+test = false
+bench = false
